@@ -99,7 +99,7 @@ function showGame1() {
   }
   removeIframe();
   iframe = createElement('iframe');
-  iframe.attribute('src', 'index.html');
+  iframe.attribute('src', 'index.html11');
   iframe.size(windowWidth * 0.8, windowHeight * 0.8);
   iframe.position(windowWidth * 0.1, windowHeight * 0.1);
   iframe.style('z-index', '1000');
