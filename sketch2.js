@@ -92,14 +92,14 @@ function showIframe() {
 }
 
 function showGame1() {
-  if (iframe && iframe.elt.src.includes('index.html11')) {
+  if (iframe && iframe.elt.src.includes('index11.html')) {
     iframe.remove();
     iframe = null;
     return;
   }
   removeIframe();
   iframe = createElement('iframe');
-  iframe.attribute('src', 'index.html11');
+  iframe.attribute('src', 'index11.html');
   iframe.size(windowWidth * 0.8, windowHeight * 0.8);
   iframe.position(windowWidth * 0.1, windowHeight * 0.1);
   iframe.style('z-index', '1000');
