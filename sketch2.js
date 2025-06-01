@@ -92,7 +92,7 @@ function showIframe() {
 }
 
 function showGame1() {
-  if (iframe && iframe.elt.src.includes('index.html')) {
+  if (iframe && iframe.elt.src.includes('index.html11')) {
     iframe.remove();
     iframe = null;
     return;
@@ -131,8 +131,8 @@ function showInfo() {
   // 用 div 顯示說明文字在畫面中央
   iframe = createDiv(
     "1. 遊玩遊戲1跟2之前記得先點教科系老師列表認識老師們<br>" +
-    "2. 遊戲1為比出手指1根2根或是3根的來選擇正確答案得選擇題<br>" +
-    "3. 遊戲2為利用手指拿動文字放到對應的老師圖片上<br>" +
+    "2. 遊戲1為比出手指1根2根或是3根的來選擇正確答案<br>" +
+    "3. 遊戲2為利用手指拿動文字放到將課程根老師圖片配對對<br>" +
     "4. 再次點擊說明按鈕關閉此頁面" 
   );
   iframe.id('infoBox');
